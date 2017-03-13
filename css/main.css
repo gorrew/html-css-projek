@@ -1,0 +1,265 @@
+/* FÄRGER VI ANVÄNDER 
+#EEEEEE ----- GRÅ
+#FFFFFF ----- VIT
+#4A90E2 ----- BLÅ
+#7fffd4 ----- Aquamarine
+#76eec6 ----- Aquamarine2
+#2e4c72 ----- Maring blå
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.description {
+    font-size: 1.4em;
+}
+
+.media-heading {
+    font-size: 1.7em;
+}
+
+.bragging-field {
+    background: #4A90E2;
+    padding-top: 3em;
+    padding-bottom: 6em;
+    color: #fff;
+}
+
+.bragging-p {
+    margin-top: 1em;
+}
+
+i.bragging-icon {
+    font-size: 10em;
+    margin: 50px 50px;
+}
+
+
+/* navbar */
+
+.navbar-default {
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid #4A90E2;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #4A90E2;
+}
+
+.navbar-default .navbar-toggle {
+    border: 1px solid #4A90E2;
+}
+
+
+/* title */
+
+.navbar-default .navbar-brand {
+    color: #4A90E2;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+
+
+/* link */
+
+.navbar-default .navbar-nav > li > a {
+    color: #4A90E2;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+
+.landing-page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/laptop-mobile.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    padding-top: 12%;
+    padding-bottom: 17%;
+    color: #fff;
+}
+
+.intro-text > h1 {
+    font-size: 5em;
+    padding-bottom: 3%;
+}
+
+.landing-p {
+    font-size: 1.2em;
+}
+
+.landing-btn {
+    margin-top: 5em;
+    width: 15em;
+    height: 3em;
+    line-height: 2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.media-middle {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.about-product {
+    padding-bottom: 3em;
+}
+
+.product {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.about-team {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.about-co {
+    background: #eee;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.intro-text {
+    padding: 3em;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.about-team-section {
+    padding-bottom: 7em;
+}
+
+footer {
+    background: #4A90E2;
+    padding: 3em;
+}
+
+i.social-media {
+    font-size: 3em;
+    margin-left: .5em;
+    margin-top: .5em;
+    margin-right: .5em;
+}
+
+@media (max-width: 480px) {
+    i.social-media {
+        font-size: 2.5em;
+    }
+}
+
+.media:hover {
+    color: #4A90E2;
+}
+
+address {
+    margin-bottom: 0;
+}
+
+.contact-us {
+    margin-top: 1em;
+}
+
+#cart {
+    color: #4A90E2;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 2em;
+}
+
+
+/*Media Query*/
+
+@media (max-width: 768px) {
+    .navbar-default .navbar-nav > li > a {
+        color: #76eec6;
+    }
+    .navbar-default .navbar-toggle {
+        border: 1px solid #76eec6;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #76eec6;
+    }
+    .landing-btn {
+        background-color: #7fffd4;
+        color: #000;
+    }
+    footer {
+        background: #76eec6;
+    }
+    i.social-media {
+        color: #fff;
+    }
+    .navbar-default {
+        border-bottom: 1px solid #76EEC6;
+    }
+    .navbar-default .navbar-brand {
+        color: #76EEC6;
+        text-transform: uppercase;
+    }
+    .bragging-field {
+        background: #76EEC6;
+        padding-top: 3em;
+        padding-bottom: 6em;
+        color: #fff;
+    }
+    .landing-page {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        color: #f8f8f8;
+        background: url(../images/laptop-mobile-small.jpg) no-repeat center center;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1271px) {
+    #cart {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .wrap {
+        width: 100%;
+    }
+}

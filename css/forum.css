@@ -1,0 +1,67 @@
+.header {
+    margin-top: 50px;
+    background: #C9DEF6;
+    padding: 2em;
+    background: url(../images/people-coffee-tea-meeting.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.header > h1 {
+    font-size: 3em;
+    color: #fff;
+    padding-top: 1em;
+}
+
+.header > p {
+    padding-bottom: 4em;
+    color: #fff;
+}
+
+.forum-head {
+    background: #C9DEF6;
+    border-top-left-radius: .2em;
+    border-top-right-radius: .2em;
+    font-weight: bold;
+}
+
+.forum-head > p {
+    padding-top: 1em;
+    padding-bottom: .5em;
+}
+
+.forumpost {
+    background: #f7f7f7;
+    margin-bottom: .1em;
+    border-bottom-left-radius: .2em;
+    border-bottom-right-radius: .2em;
+}
+
+.forumpost:hover {
+    background: #EEEEEE;
+}
+
+.forumpost > p {
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+}
+
+.forum-start {
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+@media (max-width: 768px) {
+    .mobile-a {
+        color: #000;
+    }
+    .forum-head {
+        background: #76eec6;
+    }
+    .header {
+        margin-top: 50px;
+        background: #C9DEF6;
+        padding: 2em;
+        background: url(../images/people-coffee-tea-meeting-small.jpg) no-repeat center center;
+        background-size: cover;
+    }
+}

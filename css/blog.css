@@ -1,0 +1,129 @@
+
+body {
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*.blogg{
+    color:#f8f8f8;
+    background: url(../blog.jpg) rgba(255,255,255,0.6) no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier 
+
+   	overflow: auto;}*/
+
+
+
+.header {
+    background: #C9DEF6;
+    padding: 2em;
+    background: url(../images/blog.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.header > h1 {
+    font-size: 3em;
+    color: #fff;
+    padding-top: 1em;
+}
+
+.header > p {
+	padding:0em 0em 4em 0em;
+	color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    color: #f8f8f8;
+}
+
+h2 {
+    color: #4A90E2;
+}
+
+h1,
+h2 {
+    color: #4A90E2;
+}
+
+.email {
+    width: 300px;
+}
+
+.subscribe-btn {
+    background-color: #3c763d;
+}
+
+.blog-header {
+	padding: 50px 0px 30px 0px;
+}
+
+.ground {
+    background-color: #EEEEEE;
+}
+
+.blog-section {
+    padding: 50px 0px 10px 0px;
+}
+div.blog-section div.footer {
+    margin: 15px 0px 0px 0px;   
+}
+.green {
+    color: #3c763d;
+    font-weight: bold;
+    margin:0px 0px 20px 0px;
+}
+
+.name {
+    margin: 30px 0px 30px 0px;
+}
+
+.submit-button {
+    position: relative;
+    left: 88%;
+}
+
+.discription {
+    padding: 20px 0px 0px 0px;
+}
+
+#blog {
+    border-color: #5cb85c;
+    margin: 0px 0px 30px 0px;
+}
+
+.flex-container {
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+div.flex-container > form {
+    display: flex;    
+}
+div.flex-container > form > input{
+    margin: 0px 10px 0px 0px;
+}
+
+@media (max-width:420px) {
+   
+    div.flex-container > form {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    div.flex-container > form > input{
+        margin: 0px 0px 5px 0px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        background: #C9DEF6;
+        padding: 2em;
+        background: url(../images/blog-small.jpg) no-repeat center center;
+        background-size: cover;
+    }
+}

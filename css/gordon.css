@@ -1,0 +1,139 @@
+/* css för licens delen */
+
+
+/* Section storlek */
+
+.plan-section {
+    background: #eee;
+    padding: 12em 0 12em;
+}
+
+
+/* Styling för det 3 boxarna */
+
+.plan {
+    color: black;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+/* Färg för övre delen i boxen */
+
+.plan-color {
+    background: #4A90E2;
+    padding-bottom: 20px;
+}
+
+.p2 {
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+/* Styling för h2 i boxen */
+
+.plan-section .plan h2 {
+    color: #fff;
+    padding: 18px 0 0px;
+    margin: 0;
+}
+
+
+/* Styling för första p i boxen */
+
+.plan-section .plan h2 + p {
+    margin: 0;
+}
+
+
+/* Storlek för p-taggen på priset i boxen */
+
+.price {
+    font-size: 2em;
+    margin: 0;
+}
+
+
+/* Styling för ul i boxen */
+
+.plan-section .plan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+/* ------------------------------*/
+
+
+/* css för kundvagns delen */
+
+.order-some-padding {
+    padding-top: 50px;
+}
+
+.margin-text{
+    margin-top: 15px;
+}
+/* Styling för pruduktbeskrivnings boxen */
+
+.order-box {
+    margin-top: 10px;
+    border: 1px solid #2e4c72;
+    border-radius: 4px;
+    padding: 50px 40px 10px;
+    margin-bottom: 20px;
+}
+
+.order-price {
+    float: right;
+}
+
+.order-price > p {
+    text-align: right;
+    background: #5cb85c;
+    font-weight: bold;
+}
+
+
+/* Mellanrum mellan sista diven och fotter */
+
+.payment-div {
+    padding-bottom: 100px;
+}
+
+
+/* Ändring av färg mot bootstraps hr-tagg */
+
+.hr-style {
+    border-top: 1px solid #2e4c72;
+    padding-right: 0;
+}
+
+.radio {
+    border-bottom: 1px solid #eee;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.radio-b {
+    width: 20px;
+    height: 20px;
+}
+
+.check-b {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 768px) {
+    .plan-color {
+        background: #76eec6;
+        padding-bottom: 20px;
+    }
+    footer {
+        background: #76eec6;
+        
+    }
+}
